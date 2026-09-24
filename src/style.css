@@ -11,3 +11,6 @@
 @media(max-width:700px){.nav button span{overflow-wrap:anywhere;max-width:100%}.workgrid .side-panels>.panel{width:100%}.topbar{flex-wrap:wrap;height:auto;min-height:56px;padding-top:8px;padding-bottom:8px}.week-actions{flex-shrink:0}}
 @media(max-width:380px){.nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.nav button{border-radius:8px}.nav button span{overflow-wrap:normal}}
 @media(max-width:700px){.workgrid .side-panels{display:contents}.workgrid .side-panels>.panel{order:-1;margin-bottom:4px}.workgrid .main-meals{order:0}.workgrid .side-panels>.tip,.workgrid .side-panels>.secondary-tip{order:1}.plate-guide{gap:16px;align-items:start;flex-direction:column}.plate-guide img{width:100%;height:170px}.plate-guide h2{font-size:1.2rem}}
+
+.google-login{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;margin-top:24px;min-height:48px;background:#fff;color:#1f1f1f}.google-login svg{flex-shrink:0}.google-login:disabled{opacity:.65;cursor:wait}
+
